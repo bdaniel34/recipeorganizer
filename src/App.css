@@ -1,0 +1,96 @@
+* {
+  padding: 0.5em;
+  text-align: center;
+}
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+table th {
+  font-weight: 200;
+  width: 5px;
+}
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: fit-content;
+  border-collapse: collapse;
+  width: 100%;
+}
+.customers td,
+th {
+  border: 2px solid rgb(17, 16, 16);
+}
+.customers th {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  table-layout: fixed;
+  color: black;
+}
+.week th:nth-of-type(1n + 2) {
+  background-color: yellow;
+}
+
+.breakfast th:nth-of-type(even) {
+  background-color: aqua;
+}
+.breakfast th:nth-of-type(2n + 3) {
+  background-color: lightsalmon;
+}
+
+.snack1 th:nth-of-type(1n + 2) {
+  background-color: rgb(24, 246, 24);
+}
+.lunch th:nth-of-type(3n + 2) {
+  background-color: red;
+}
+.lunch th:nth-of-type(3n + 4) {
+  background-color: lightblue;
+}
+.lunch th:nth-of-type(3n + 3) {
+  background-color: purple;
+}
+#weekend th:nth-of-type(1n + 7) {
+  background-color: #ff00b3;
+}
+.snack2 th:nth-of-type(1n + 2) {
+  background-color: rgb(108, 235, 29);
+}
+.dinner th:nth-of-type(3n + 2) {
+  background-color: blueviolet;
+}
+.dinner th:nth-of-type(3n + 3) {
+  background-color: rgb(192, 153, 228);
+}
+.dinner th:nth-of-type(3n + 4) {
+  background-color: rgb(244, 135, 11);
+}
+.locationinfo {
+  background-color: lightgrey;
+  border: 15px solid yellow;
+  padding:1cm;
+  margin: 1cm;
+  align-items: center;
+  width: fit-content;
+ 
+}
+ 
+ 
+html {
+  text-align: center;
+   
+  }
+.photo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-image: url("https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg");
+   }
+  li{
+    margin:2cm;
+  }
